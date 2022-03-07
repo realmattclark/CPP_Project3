@@ -1,2 +1,11 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\x64\Debug\CPP_Project3.exe
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(43,6): error C2084: function 'void printTotal(const int [],const double [],const double [],int)' already has a body
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(27): message : see previous definition of 'printTotal'
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(74,27): error C2109: subscript requires array or pointer type
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(74,76): error C2109: subscript requires array or pointer type
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(74,96): error C2109: subscript requires array or pointer type
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(87,71): error C2664: 'void printData(const int [],const std::string [],const std::string [],const double [],const double [],int)': cannot convert argument 1 from 'int' to 'const int []'
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(87,29): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(10,6): message : see declaration of 'printData'
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(89,19): error C3861: 'printNames': identifier not found
+C:\Users\mattc\OneDrive\Documents\Github\CPP_Project3\ConsoleApplication1\ConsoleApplication1.cpp(91,19): error C2065: 'printTotal': undeclared identifier
